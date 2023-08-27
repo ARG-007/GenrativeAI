@@ -1,0 +1,3 @@
+[submodule "EdgeChat"]
+	path = EdgeChat
+	url = https://github.com/ARG-007/EdgeChat.git
