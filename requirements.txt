@@ -1,0 +1,6 @@
+jupyter
+openai
+gradio
+EdgeGPT
+selenium
+log2d
