@@ -1,0 +1,174 @@
+{
+    "type": 2,
+    "invocationId": "4",
+    "item": {
+        "messages": [
+            {
+                "text": "You know greetings?, in my country we always say \"Hello {name}!, How Can I Assist You Today?\" for \"I am {name}\",  I expect same from you",
+                "author": "user",
+                "from": {
+                    "id": "844425254728138",
+                    "name": null,
+                    "partnerId": null
+                },
+                "createdAt": "2023-09-01T20:30:37.1715629+00:00",
+                "timestamp": "2023-09-02T02:00:35+05:30",
+                "locale": "en-us",
+                "market": "en-us",
+                "region": "us",
+                "locationInfo": {
+                    "country": "India",
+                    "state": "Tamil Nadu",
+                    "city": "Chennai"
+                },
+                "locationHints": [
+                    {
+                        "country": "United States",
+                        "countryConfidence": 8,
+                        "state": "California",
+                        "city": "Los Angeles",
+                        "timeZoneOffset": 8,
+                        "sourceType": 1,
+                        "center": {
+                            "latitude": 34.05369,
+                            "longitude": -118.24277,
+                            "height": null
+                        },
+                        "regionType": 2
+                    }
+                ],
+                "messageId": "abbf4fb3-1da6-4012-b28d-bfb1d6471d17",
+                "requestId": "abbf4fb3-1da6-4012-b28d-bfb1d6471d17",
+                "nlu": {
+                    "scoredClassification": {
+                        "classification": "DEEP_LEO",
+                        "score": null
+                    },
+                    "classificationRanking": [
+                        {
+                            "classification": "DEEP_LEO",
+                            "score": null
+                        }
+                    ],
+                    "qualifyingClassifications": null,
+                    "ood": null,
+                    "metaData": null,
+                    "entities": null
+                },
+                "offense": "None",
+                "feedback": {
+                    "tag": null,
+                    "updatedOn": null,
+                    "type": "None"
+                },
+                "contentOrigin": "cib",
+                "scores": [
+                    {
+                        "component": "UserOffense",
+                        "score": 4.0063693e-05
+                    },
+                    {
+                        "component": "suicide_help",
+                        "score": 0.008610767
+                    }
+                ],
+                "inputMethod": "Keyboard"
+            },
+            {
+                "text": "Hello! How can I assist you today? \ud83d\ude0a",
+                "author": "bot",
+                "createdAt": "2023-09-01T20:30:43.0981142+00:00",
+                "timestamp": "2023-09-01T20:30:43.0981142+00:00",
+                "messageId": "284e551f-fb07-4853-bdda-7e1977083aab",
+                "requestId": "abbf4fb3-1da6-4012-b28d-bfb1d6471d17",
+                "offense": "None",
+                "adaptiveCards": [
+                    {
+                        "type": "AdaptiveCard",
+                        "version": "1.0",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Hello! How can I assist you today? \ud83d\ude0a\n",
+                                "wrap": true
+                            }
+                        ]
+                    }
+                ],
+                "sourceAttributions": [],
+                "feedback": {
+                    "tag": null,
+                    "updatedOn": null,
+                    "type": "None"
+                },
+                "contentOrigin": "DeepLeo",
+                "suggestedResponses": [
+                    {
+                        "text": "What can you do?",
+                        "author": "user",
+                        "createdAt": "2023-09-01T20:30:45.3474606+00:00",
+                        "timestamp": "2023-09-01T20:30:45.3474606+00:00",
+                        "messageId": "36e400e3-be55-4c73-8650-108bec6819ad",
+                        "messageType": "Suggestion",
+                        "offense": "Unknown",
+                        "feedback": {
+                            "tag": null,
+                            "updatedOn": null,
+                            "type": "None"
+                        },
+                        "contentOrigin": "SuggestionChipsFalconService"
+                    },
+                    {
+                        "text": "Can you tell me a joke?",
+                        "author": "user",
+                        "createdAt": "2023-09-01T20:30:45.3474626+00:00",
+                        "timestamp": "2023-09-01T20:30:45.3474626+00:00",
+                        "messageId": "964957ec-63be-4734-a38a-e70c046fe9a5",
+                        "messageType": "Suggestion",
+                        "offense": "Unknown",
+                        "feedback": {
+                            "tag": null,
+                            "updatedOn": null,
+                            "type": "None"
+                        },
+                        "contentOrigin": "SuggestionChipsFalconService"
+                    },
+                    {
+                        "text": "How are you doing today?",
+                        "author": "user",
+                        "createdAt": "2023-09-01T20:30:45.347463+00:00",
+                        "timestamp": "2023-09-01T20:30:45.347463+00:00",
+                        "messageId": "5ca3ab06-576f-4a83-a1d8-e3329f37620e",
+                        "messageType": "Suggestion",
+                        "offense": "Unknown",
+                        "feedback": {
+                            "tag": null,
+                            "updatedOn": null,
+                            "type": "None"
+                        },
+                        "contentOrigin": "SuggestionChipsFalconService"
+                    }
+                ]
+            }
+        ],
+        "firstNewMessageIndex": 1,
+        "defaultChatName": null,
+        "conversationId": "51D|BingProd|CCFBBC3504064F7C001D2E1DF53EED40E46240DC3C1EC4D897D3EB3C4F500725",
+        "requestId": "abbf4fb3-1da6-4012-b28d-bfb1d6471d17",
+        "conversationExpiryTime": "2023-11-30T20:30:45.3767244Z",
+        "telemetry": {
+            "startTime": "2023-09-01T20:30:37.1673572Z"
+        },
+        "throttling": {
+            "maxNumUserMessagesInConversation": 30,
+            "numUserMessagesInConversation": 2,
+            "maxNumLongDocSummaryUserMessagesInConversation": 50,
+            "numLongDocSummaryUserMessagesInConversation": 0
+        },
+        "result": {
+            "value": "Success",
+            "message": "Hello! How can I assist you today? \ud83d\ude0a",
+            "serviceVersion": "20230901.43"
+        }
+    }
+}

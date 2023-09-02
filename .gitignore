@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Bing Cookies
-bing_cookies/
+bing_cookies/*
 
 .git
 
